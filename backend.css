@@ -1,0 +1,5 @@
+div.mod_module_creator {}
+div.mod_module_creator fieldset{border:1px solid #ccc;background-color:#fff;padding:15px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-khtml-border-radius: 8px;border-radius: 8px;}
+div.mod_module_creator legend{margin-left:25px;padding:0 15px;font-weight:900;border-left:1px solid #ccc;border-right:1px solid #ccc;}
+div.mod_module_creator label{width:200px;display:inline-block;text-align:right;vertical-align:top;margin-right:15px;}
+div.mod_module_creator textarea, div.mod_module_creator input[type="text"]{width:500px;}
