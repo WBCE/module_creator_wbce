@@ -66,9 +66,9 @@ if(isset($_SESSION['mod_mc_data'])) {
 if($doSave) {
 
     $type          = $admin->get_post('new_moduletype');
-    $path          = str_replace('\\','/',$modulePath.'templates/default/dummies/'.$type);
+    $path          = str_replace('\\','/',$modulePath.'blueprints/'.$type);
     $modulePath    = str_replace('\\','/',$modulePath); // fix backslashes
-    $relpath       = $modulePath.'templates/default/dummies/'.$type.'/';
+    $relpath       = $modulePath.'blueprints/'.$type.'/';
     $result        = array();
     $modfolder     = NULL;
     $modname       = $admin->get_post('new_modulename');
